@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>real estate</title>
+    <link rel="icon" type="image/jpeg" href="images/favicon.jpeg" style="border-radius: 50%;">
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css"> 
+    
+</head>
+<body>
+    <header class="header" id="header">
+        <nav>
+            <a href="#" class="nav__logo">
+                UrbanNestle <i class="fa-solid fa-house-chimney"></i>
+            </a>
+            
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active">
+                            <i class="fa-solid fa-house"></i>
+                           <span>Home</span> 
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#popular" class="nav__link ">
+                            <i class="fa-solid fa-building"></i>
+                            <span>Residences</span> 
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#value" class="nav__link">
+                           <i class='fa fa-award'></i>
+                            <span>Value</span> 
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='fa fa-phone'></i>
+                            <span>Contact</span> 
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <i class="fa-regular fa-sun change-theme" id="theme-button"></i>
+
+            <a href="#subscribe" class="button nav__button">
+                Subscribe
+            </a>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="home section " id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Find  <br> Your Ideal <br> Property
+                    </h1>
+                    <p class="home__description">
+                        Discover your dream home on UrbanNestle. Explore listings, find properties that suit your lifestyle, and start your homeownership journey today.
+                    </p>
+                    <form action="" class="home__search">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <input type="search" placeholder="search by location..." class="home__search-input">
+                        <button class="button">Search</button>
+                    </form>
+                    <div class="home__value">
+                    <div>
+                        <h1 class="home__value-number">
+                            9k <span>+</span>
+                        </h1>
+                        <span class="home__value-description">
+                            Premium <br> Product
+                        </span>
+                    </div>
+
+                    <div>
+                        <h1 class="home__value-number">
+                            2k <span>+</span>
+                        </h1>
+                        <span class="home__value-description">
+                            Happy <br> Customer
+                        </span>
+                    </div>
+
+                    <div>
+                        <h1 class="home__value-number">
+                            28k <span>+</span>
+                        </h1>
+                        <span class="home__value-description">
+                            Award <br> Winning
+                        </span>
+                    </div>
+                </div>
+                </div>
+                <div class="home__images">
+                    <div class="home__orbe"></div>
+
+                    <div class="home__img">
+                        <img src="images\house1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="logos__section">
+            <div class="logos__conatiner container grid">
+                <div class="logos__img">
+                    <img src="images\logo1 (1).png" alt="" style="width: 222px; height: 95px;">
+                </div>
+
+                <div class="logos__img">
+                    <img src="images\logo2.png" alt="" style="width: 222px; height: 95px;" >
+                </div>
+
+                <div class="logos__img">
+                    <img src="images\logo3.png" alt="" style="width: 222px; height: 95px;" >
+                </div>
+
+                <div class="logos__img">
+                    <img src="images\logo4.png" alt="" style="width: 222px; height: 95px;">
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="section__poupular container" id="popular">
+            <div class="container">
+                <span class="section__subtitle">Best Choice</span>
+                <h2 class="section__title">
+                    Popular Residence <span>.</span>
+              </h2>
+              </div>
+                <div class="popular__container swiper">
+                    <div class="swiper-wrapper">
+                        <article class="popular__card swiper-slide " style="width: 290px;">
+                            <img src="images/popular1.jpg" alt="" class="popular__img">
+                            <div class="popular__data">
+                                <h2 class="popular__Price">
+                                    <span>$ </span>65,500
+                                </h2>
+                                <h3 class="popular__title">
+                                    Paradise Cove
+                                </h3>
+                                <p class="popular__description">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing
+                                     elit. Mollitia, quae?
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="popular__card  swiper-slide"  style="width: 290px;">
+                            <img src="images/popular2.jpg" alt="" class="popular__img">
+                            <div class="popular__data">
+                                <h2 class="popular__Price">
+                                    <span>$ </span> 10,900
+                                </h2>
+                                <h3 class="popular__title">
+                                    Gables Luxurious House
+                                </h3>
+                                <p class="popular__description">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing
+                                     elit. Mollitia, quae?
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="popular__card  swiper-slide" style="width: 290px;">
+                            <img src="images/popular3.jpg" alt="" class="popular__img">
+                            <div class="popular__data">
+                                <h2 class="popular__Price">
+                                    <span>$ </span>25,500
+                                </h2>
+                                <h3 class="popular__title">
+                                    Villa Aurora 
+                                </h3>
+                                <p class="popular__description">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing
+                                     elit. Mollitia, quae?
+                                </p>
+                            </div>
+                        </article> 
+
+
+                        <article class="popular__card  swiper-slide" style="width: 290px;">
+                            <img src="images/popular4.jpg" alt="" class="popular__img">
+                            <div class="popular__data">
+                                <h2 class="popular__Price">
+                                    <span>$ </span>31,500
+                                </h2>
+                                <h3 class="popular__title">
+                                    Garden Orchid City
+                                </h3>
+                                <p class="popular__description">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing
+                                     elit. Mollitia, quae?
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="popular__card  swiper-slide" style="width: 290px;">
+                            <img src="images/popular6.jpg" alt="" class="popular__img" style="height: 230px;">
+                            <div class="popular__data">
+                                <h2 class="popular__Price">
+                                    <span>$ </span>78,500
+                                </h2>
+                                <h3 class="popular__title">
+                                    The Golden house
+                                </h3>
+                                <p class="popular__description">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing
+                                     elit. Mollitia, quae?
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="popular__card  swiper-slide "  style="width: 290px;">
+                            <img src="images/popular5.jpg" alt="" class="popular__img">
+                            <div class="popular__data">
+                                <h2 class="popular__Price">
+                                    <span>$ </span>15,545
+                                </h2>
+                                <h3 class="popular__title">
+                                    Aliva private Garden 
+                                </h3>
+                                <p class="popular__description">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing
+                                     elit. Mollitia, quae?
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                   <div class="swipe">
+                    <div class="swiper-button-prev ">
+                        <i class="fa-solid fa-chevron-left left-chevron"></i>
+                    </div>
+
+                    <div class="swiper-button-next ">
+                        
+                        <i class="fa-solid fa-chevron-right right-chevron"></i>
+                </div>
+            </div> 
+
+            </div>
+        </section>
+        <section class="value section" id="value">
+            <div class="value__container container grid">
+                <div class="value__images">
+                    <div class="value__orbe"></div>
+                    <div class="value__img">
+                        <img src="images\value1.webp" alt="">
+                    </div>
+                </div>
+                <div class="value__content">
+                    <div class="value__data">
+                        <span class="section--subtitle">Our Value</span>
+                        <h2 class="section__title">
+                            Value We Give To You<span>.</span>
+
+                        </h2>
+                        <p class="value__description">
+                            We Always ready to help by providing the best service for you.
+                            We believe a good place to live can make your life better.
+                            
+                        </p>
+                    </div>
+                    <div class="value__accordion"> 
+                        <div class="value__accordion-item">
+                            <div class="value__accordion-header">
+                                <i class="fa-solid fa-shield-halved value__accordion-icon"></i>
+                                <h3 class="value__accordion-title">
+                                    Best interest rates on the market
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class="fa-regular fa-square-caret-down"></i>
+                                </div>
+                            </div>
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Price we provides is the best for you, we guaeantee no proce changes on your property due to various unexpected costs that may come.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <div class="value__accordion-header">
+                                <i class="fa-solid fa-square-xmark value__accordion-icon"></i>
+                                <h3 class="value__accordion-title">
+                                    Prevent unstable prices 
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class="fa-regular fa-square-caret-down"></i>
+                                </div>
+                            </div>
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Price we provides is the best for you, we guaeantee no proce changes on your property due to various unexpected costs that may come.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <div class="value__accordion-header">
+                                <i class="fa-solid fa-chart-simple value__accordion-icon"></i>
+                                <h3 class="value__accordion-title">
+                                    Best prices rates on the market
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class="fa-regular fa-square-caret-down"></i>
+                                </div>
+                            </div>
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Price we provides is the best for you, we guaeantee no proce changes on your property due to various unexpected costs that may come.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <div class="value__accordion-header">
+                                <i class="fa-solid fa-square-check value__accordion-icon"></i>
+                                <h3 class="value__accordion-title">
+                                    Security of your data 
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class="fa-regular fa-square-caret-down"></i>
+                                </div>
+                            </div>
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Price we provides is the best for you, we guaeantee no proce changes on your property due to various unexpected costs that may come.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact section" id="contact">
+            <div class="contact__container container grid">
+                <div class="contact__images">
+                    <div class="contact__orbe">
+
+                    </div>
+                    <div class="contact__img">
+                        <img src="images/contact2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="contact__content">
+                    <div class="contact__data">
+                        <span class="section__subtitle">Contact Us</span>
+                        <h2 class="section__title">
+                            Easy to Contact us <span>.</span>
+                        </h2>
+                        <p class="contact__description">
+                            Is there a problem finding your dream home? Need a guide in buying first home/ or need a consultation on residental issues? just contact us.
+                        </p>
+                    </div>
+                            <div class="contact__card">
+                                <div class="contact__card-box">
+                                    <div class="contact__card-info">
+                                        <i class="fa-solid fa-phone-volume"></i>
+                                        <div>
+                                        <h3 class="contact__card-title">
+                                            Call
+                                        </h3>
+                                        <p class="contact__card-description">
+                                            022.465.789.15
+                                        </p>
+                                    </div>
+                                </div>
+                                <button class="button contact__card-button">
+                                    Call Now
+                                </button>
+                            </div>
+
+                            <div class="contact__card-box">
+                                <div class="contact__card-info">
+                                    <i class="fa-sharp fa-solid fa-comment-dots"></i>
+                                    <div>
+                                    <h3 class="contact__card-title">
+                                        Chat
+                                    </h3>
+                                    <p class="contact__card-description">
+                                        019.585.789.15
+                                    </p>
+                                </div>
+                            </div>
+                            <button class="button contact__card-button">
+                                Chat Now
+                            </button>
+                        </div>
+
+                    <div class="contact__card-box">
+                        <div class="contact__card-info">
+                            <i class="fa-solid fa-video"></i>
+                            <div>
+                            <h3 class="contact__card-title">
+                                Video Call
+                            </h3>
+                            <p class="contact__card-description">
+                                082.465.789.15
+                            </p>
+                        </div>
+                    </div>
+                    <button class="button contact__card-button">
+                        video call now
+                    </button>
+                </div>
+
+                <div class="contact__card-box">
+                    <div class="contact__card-info">
+                        <i class="fa-sharp fa-solid fa-envelope"></i>
+                        <div>
+                        <h3 class="contact__card-title">
+                            Message
+                        </h3>
+                        <p class="contact__card-description">
+                            022.465.789.15
+                        </p>
+                    </div>
+                </div>
+                <button class="button contact__card-button">
+                    Message Now
+                </button>
+                 </div>
+                </div>
+             </div>
+         </div>
+
+        </section>
+        <section class="subscribe section" id="subscribe">
+            <div class="subscribe__container container">
+                <h1 class="subscribe__title">
+                    Get Started with UrbanNestle
+                </h1>
+                <p class="subscribe__description">
+                    Subscribe and find super attractive price quotes from us, Find your residence soon
+                </p>
+                <a href="" class="button subscribe__button">
+                    Get Started
+                </a>
+            </div>
+
+        </section>
+
+        <footer class="footer section">
+            <div class="footer_container container grid">
+                <div>
+                    <a href="#" class="footer logo">
+                        UrbanNestle <i class="fa-solid fa-house-circle-check"></i>
+                    </a>
+                    <p class="footer__description">
+                        Our vision is to make all people <br>
+                        the best place to live for them.
+                    </p>
+                </div>
+                <div class="footer__content">
+                    <div>
+                        <h3 class="footer__title">
+                            About
+                        </h3>
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Features</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">News & Blog</a>
+                            </li>
+                       </ul>
+                    </div>
+
+                        <div>
+                            <h3 class="footer__title">
+                                Company 
+                            </h3>
+                            <ul class="footer__links">
+                                <li>
+                                    <a href="#" class="footer__link">How We Work?</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer__link">Capital</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer__link">Security</a>
+                                </li>
+                           </ul>
+                        </div>
+
+                            <div>
+                                <h3 class="footer__title">
+                                    Support
+                                </h3>
+                                <ul class="footer__links">
+                                    <li>
+                                        <a href="#" class="footer__link">FAQs</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer__link">support center</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer__link">Contact Us</a>
+                                    </li>
+                               </ul>
+                            </div>
+
+                                <div>
+                                    <h3 class="footer__title">
+                                        Follow us
+                                    </h3>
+                                    <ul class="footer__social">
+                                     <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                                        <i class="fa-brands fa-facebook"></i>
+                                     </a>
+                                     <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                                        <i class="fa-brands fa-instagram"></i>
+                                     </a>
+                                     <a href="https://www.twitter.com/" target="_blank" class="footer__social-link">
+                                        <i class="fa-brands fa-twitter"></i>
+                                     </a>
+                                     <a href="https://www.pinterest.com/" target="_blank" class="footer__social-link">
+                                        <i class="fa-brands fa-pinterest"></i>
+                                     </a>
+                                   </ul>
+                                </div>
+
+                        
+                    
+                </div>
+            </div>
+
+            <div class="footer__info container">
+                <span class="footer__copy">
+                    &#169; Bedimode. All rights reserved
+                </span>
+
+                <div class="footer__privacy">
+                    <a href="#">Terms & Agreements</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </footer>
+        <a href="#home" class="scrollup" id="scroll-up">
+            <i class="fa-solid fa-circle-chevron-up"></i>
+        </a>
+
+    </main>
+    <script src="https://kit.fontawesome.com/2bb521265e.js" crossorigin="anonymous"></script>
+      <!--  <script src="js/swiper-bundle.min.js"> </script>    -->
+      <script src="https://unpkg.com/scrollreveal"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js\main.js"></script>
+   
+</body>
+</html>
